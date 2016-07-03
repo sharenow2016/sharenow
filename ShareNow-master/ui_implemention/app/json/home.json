@@ -1,0 +1,22 @@
+{
+    "menuType": "home",
+  "values": [
+    {
+      "componentType": "textBox",
+      "id": "payAmount",
+      "style": {
+        "valueContent": "int",
+        "inputType": "number",
+        "columnSize": [
+          4,
+          5,
+          3
+        ]
+      },
+      "setting": {
+        "showLabel": "true",
+        "staticText": "amount"
+      }
+  }
+  ]
+}

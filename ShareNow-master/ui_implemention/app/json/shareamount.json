@@ -1,0 +1,56 @@
+{
+  "menuType": "shareamount",
+  "values": [
+    {"componentType": "textBox",
+    "id":"shareAmount",
+      "style":{
+      "valueContent":"int",
+      "inputType":"number",
+      "columnSize": [
+        4,
+        5,
+        3
+      ]},
+      "setting": {
+        "showLabel":"true",
+        "staticText":"amount"
+              }
+          },
+    {"componentType": "dropDown",
+    "id":"shareAmountFindMember",
+
+      "style":{
+        "blockStyle":"true",
+      "valueContent":"string",
+      "inputType":"text",
+      "columnSize": [
+        4,
+        6,
+        2
+      ]},
+      "setting": {
+        "showLabel":"true",
+        "staticText":"findMember"
+      }
+    },
+
+    {"componentType": "button",
+    "id":"shareAmount",
+      "style":{
+      "valueType":"string",
+      "value":"pay",
+      "columnSize": [
+        4,
+        6,
+        2
+      ]},
+      "setting": {
+        "showLabel":"true",
+        "staticText":"shareAmount"
+      },
+      "event":{
+        "eventType":"click"
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "menuType": "signUp",
+  "values": [
+    {
+      "componentType": "textBox",
+      "id": "signupUsername",
+      "style": {
+        "valueContent": "string",
+        "inputType": "text",
+        "columnSize": [
+          4,
+          5,
+          3
+        ]
+      },
+      "setting": {
+        "showLabel": "true",
+        "staticText": "userName"
+      }
+    },
+    {
+      "componentType": "textBox",
+      "id": "signupPassword",
+      "style": {
+        "valueContent": "string",
+        "inputType": "password",
+        "columnSize": [
+          4,
+          6,
+          2
+        ]
+      },
+      "setting": {
+        "showLabel": "true",
+        "staticText": "password"
+      }
+    },
+    {
+      "componentType": "textBox",
+      "id": "signupConformPassword",
+      "style": {
+        "valueContent": "string",
+        "inputType": "password",
+        "columnSize": [
+          4,
+          6,
+          2
+        ]
+      },
+      "setting": {
+        "showLabel": "true",
+        "staticText": "conformPassword"
+      }
+    },
+    {
+      "componentType": "button",
+      "id": "signupSubmit",
+      "style": {
+        "valueType": "string",
+        "value": "submit",
+        "columnSize": [
+          4,
+          6,
+          2
+        ]
+      },
+      "setting": {
+        "showLabel": "true",
+        "staticText": "submit"
+      },
+      "event": {
+        "eventType": "click"
+      }
+    }
+  ]
+}

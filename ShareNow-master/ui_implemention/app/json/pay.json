@@ -1,0 +1,62 @@
+{
+  "menuType": "pay",
+  "values": [
+    {
+      "componentType": "textBox",
+      "id": "payAmount",
+      "style": {
+        "valueContent": "int",
+        "inputType": "number",
+        "columnSize": [
+          4,
+          5,
+          3
+        ]
+      },
+      "setting": {
+        "showLabel": "true",
+        "staticText": "amount",
+        "placeholder":"Amount",
+        "name":"amount"
+      }
+    },
+    {
+      "componentType": "dropDown",
+      "id": "payFindMember",
+      "style": {
+        "blockStyle": "false",
+        "valueContent": "string",
+        "inputType": "text",
+        "columnSize": [
+          4,
+          6,
+          2
+        ]
+      },
+      "setting": {
+        "showLabel": "true",
+        "staticText": "findMember"
+      }
+    },
+    {
+      "componentType": "button",
+      "id": "payAmount",
+      "style": {
+        "valueType": "string",
+        "value": "pay",
+        "columnSize": [
+          4,
+          6,
+          2
+        ]
+      },
+      "setting": {
+        "showLabel": "true",
+        "staticText": "payAmount"
+      },
+      "event": {
+        "eventType": "click"
+      }
+    }
+  ]
+}

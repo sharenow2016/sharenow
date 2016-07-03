@@ -1,0 +1,59 @@
+{
+  "menuType": "login",
+  "values": [
+    {
+      "componentType": "textBox",
+      "id": "loginUsername",
+      "style": {
+        "valueContent": "string",
+        "inputType": "text",
+        "columnSize": [
+          4,
+          5,
+          3
+        ]
+      },
+      "setting": {
+        "showLabel": "true",
+        "staticText": "userName"
+      }
+    },
+    {
+      "componentType": "textBox",
+      "id": "loginPassword",
+      "style": {
+        "valueContent": "string",
+        "inputType": "password",
+        "columnSize": [
+          4,
+          6,
+          2
+        ]
+      },
+      "setting": {
+        "showLabel": "true",
+        "staticText": "password"
+      }
+    },
+    {
+      "componentType": "button",
+      "id": "loginSubmit",
+      "style": {
+        "valueType": "string",
+        "value": "login",
+        "columnSize": [
+          4,
+          6,
+          2
+        ]
+      },
+      "setting": {
+        "showLabel": "true",
+        "staticText": "login"
+      },
+      "event": {
+        "eventType": "click"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "menuType": "login",
+      "menubarRequired": false
+    },
+    {
+      "menuType": "signup",
+      "menubarRequired": false
+    },
+    {
+      "menuType": "other",
+      "menubarRequired": true
+    }
+  ]
+}

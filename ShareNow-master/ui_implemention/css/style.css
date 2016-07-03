@@ -1,0 +1,26 @@
+html {
+	background: url('../images/Backgroundcity.jpg');
+	font-size: 10pt;
+	background-repeat: no-repeat;
+	background-size: 1366px 720px;
+}
+myapp,img {
+	    width: 300px;
+    	height: 200px;
+}
+
+snbutton div button{
+	background-color: rgba(255, 162, 0, 0.98);
+	color: red;
+	height:30px;
+	width: 115px;
+	border-radius: 20px;
+}
+sntextbox div input{
+	width: 150px;
+	height: 25px;
+}
+#appname{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;	
+}

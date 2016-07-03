@@ -1,0 +1,21 @@
+{
+    "menuType": "report",
+  "values": [
+    {
+      "componentType": "textBox",
+      "id": "createGroupName",
+      "style": {
+        "valueContent": "string",
+        "inputType": "text",
+        "columnSize": [
+          4,
+          5,
+          3
+        ]
+      },
+      "setting": {
+        "showLabel": "true",
+        "staticText": "groupName"
+      }
+  }]
+}

@@ -1,0 +1,25 @@
+{
+  "grp": [
+    {
+      "groupname": "harculus",
+      "roommates": [
+        "rekha",
+        "chandu"
+      ]
+    },
+    {
+      "groupname": "pluto",
+      "roommates": [
+        "david",
+        "ray"
+      ]
+    },
+    {
+      "groupname": "mars",
+      "roommates": [
+        "muthu",
+        "krishnan"
+      ]
+    }
+  ]
+}

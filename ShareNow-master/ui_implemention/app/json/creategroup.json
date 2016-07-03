@@ -1,0 +1,60 @@
+{
+  "menuType": "createGroup",
+  "values": [
+    {
+      "componentType": "textBox",
+      "id": "createGroupName",
+      "style": {
+        "valueContent": "string",
+        "inputType": "text",
+        "columnSize": [
+          4,
+          5,
+          3
+        ]
+      },
+      "setting": {
+        "showLabel": "true",
+        "staticText": "groupName"
+      }
+    },
+    {
+      "componentType": "searchBox",
+      "id": "createGroupFindMember",
+      "style": {
+        "blockStyle": "true",
+        "valueContent": "string",
+        "inputType": "text",
+        "columnSize": [
+          4,
+          6,
+          2
+        ]
+      },
+      "setting": {
+        "showLabel": "true",
+        "staticText": "findMember"
+      }
+    },
+    {
+      "componentType": "button",
+      "id": "createGroup",
+      "style": {
+        "valueType": "string",
+        "value": "submit",
+        "columnSize": [
+          4,
+          6,
+          2
+        ]
+      },
+      "setting": {
+        "showLabel": "true",
+        "staticText": "createGroup"
+      },
+      "event": {
+        "eventType": "click"
+      }
+    }
+  ]
+}
